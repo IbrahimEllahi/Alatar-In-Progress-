@@ -17,4 +17,4 @@ Alatar is currently a visuals-only game. This version allows the player to free-
 
 ## Setup
 
-User `pip install pygame, pytmx` for the needed packages
+Use `pip install pygame, pytmx` for the needed packages
