@@ -28,19 +28,19 @@ The conveniency of this system has allowed me to use it in multiple programs. It
 
 <br>
 
-1. Alatar uses a unique particle system that allows the programmer to easily generate hundreds of particles, with a unique size, color, speed, decay, and flow of direction.
+1. Alatar uses a unique particle system that allows the programmer to easily generate hundreds of particles, with a unique size, color, speed, decay, and flow of direction. This system makes the implemnation of environmental conditions such as rain, snow, meteors, etc, a lot more efficient and accessible.
 
 <br>
 
-2. The Particle Class I've coded is what makes this possible, it takes these ranges of sizes, colors, and speeds, randomizes them and then returns the desired amount of particles objects onto the pygame window.
+2. The Particle Class I've coded is what makes this possible, it takes these ranges of sizes, colors, and speeds, randomizes them and then returns the desired amount of particles objects onto the pygame window. These objects are constantly being updated in each frame, this includes their location, camera angle and size.
 
 <br>
 
-3. To reduce lag these particles have a rate of decay and will slowly disappear over time, this way we can generate new particles and change their x,y values without crashing the program.
+3. To reduce lag these particles have a rate of decay and will slowly disappear over time, this way we can generate new particles and change their x,y values without crashing the program. The `create_particles` function is reponsible for this, when a particle decays or disappears it is called and makes sure to replace the old particle with a newly generated one.
 
 <br>
 
-4. If `runtime = False` these particles will continue to generate on and on for infinity until the level is over, which is exactly what I've done with the test map. 
+4. If `runtime = False` these particles will continue to generate on and on for infinity until the level is over, which is exactly what I've done with the test map. Increasing the x,y range of our particles can allow us to see them at different intervals such as every 10-30 seconds. Particles will be randomly generated within these ranges and slowly move onto the main screen. 
 
 <br>
 
