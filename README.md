@@ -8,6 +8,13 @@ This is the alpha version of Alatar, a video game about the magical adventures o
 
 <br>
 
+## Version 1.0
+
+Alatar is currently a visuals-only game. This version allows the player to free-roam throughout the test map, and experiment with particles and game physics.
+
+
+<br>
+
 ## Setup
 
 User `pip install pygame, pytmx` for the needed packages
