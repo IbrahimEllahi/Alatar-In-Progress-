@@ -5,3 +5,9 @@ This is the alpha version of Alatar, a video game about the magical adventures o
 
 
 ![alatar](https://user-images.githubusercontent.com/85767913/152055363-09cec97e-8a50-4b71-8b4a-70da916bdf90.gif)
+
+<br>
+
+## Setup
+
+User `pip install pygame, pytmx` for the needed packages
