@@ -40,7 +40,7 @@ The conveniency of this system has allowed me to use it in multiple programs. It
 
 <br>
 
-4. If `runtime = False` these particles will continue to generate on and on for infinity until the level is over, which is exactly what I've done with the test map. Increasing the x,y range of our particles can allow us to see them at different intervals such as every 10-30 seconds. Particles will be randomly generated within these ranges and slowly move onto the main screen. 
+4. If `runtime = False` these particles will continue to generate on and on for infinity until the level is over, which is exactly what I've done with the test map. Increasing the x,y range of our particles can allow us to see them at different intervals such as every 10-30 seconds. Particles will be randomly generated within these x,y ranges and slowly move onto the main screen. 
 
 <br>
 
